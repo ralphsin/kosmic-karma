@@ -6,7 +6,16 @@ $(document).ready(function () {
             $('nav').removeClass('sticky');
         }
     }, {
-        offset: '60px;'
+        offset: '70px;'
     });
     
+    
+    $('.js--nav-icon').click(function() {
+            var nav = $('.js--main-nav');
+            var icon = $('.js--nav-icon ion-icon');
+    
+            nav.slideToggle(200);
+      
+        });
+
 });
