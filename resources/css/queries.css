@@ -56,6 +56,10 @@
         margin: 0 0 4% 0;
     }
     
+    .hero-text-box .btn-ghost{
+        color: #fff;
+        border: 1px solid #fff;
+    }
     
     .main-nav { display: none; }
     .mobile-nav-icon {display: inline-block;}
